@@ -30,7 +30,7 @@
 #n1{
     width:0.35rem;
     height:9rem;
-    background:white;
+    background:rgb(15, 15, 162);
     border-radius: 5px;
     position:absolute;
     left:9.825rem;
@@ -46,7 +46,7 @@
 #n2{
     width:0.5rem;
     height:8rem;
-    background: yellow;
+    background: rgb(15, 15, 162);
     border-radius: 5px;
     position:absolute;
     left:9.75rem;
