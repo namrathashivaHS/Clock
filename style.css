@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 #out{
-    width:22rem;
-    height:22rem;
+    width:23rem;
+    height:23rem;
     background:rgb(123, 207, 235);
     border-radius: 50%;
     box-shadow: 10px 5px 10px rgba(18, 18, 199, 0.2);
@@ -38,11 +38,13 @@
     position:absolute;
     left:18.8rem;
     top:4rem;
+    padding-top: 7px;
 }
 #num3{
     position:absolute;
     top:9.5rem;
     left:20.2rem;
+    
 }
 #num4{
     position: absolute;
@@ -91,6 +93,7 @@
 }
 h3{
     color: rgb(8, 8, 116);
+    
 }
 #in{
     width:2rem;
@@ -110,8 +113,8 @@ h3{
     background:rgb(15, 15, 162);
     border-radius: 5px;
     position:absolute;
-    left:10.825rem;
-    top:1.5rem;
+    left:11.4rem;
+    top:1.8rem;
     animation: minutehand 3600s infinite;
     transform-origin:bottom center;
     animation-timing-function: linear;
@@ -123,11 +126,11 @@ h3{
 #n2{
     width:0.5rem;
     height:9rem;
-    background: rgb(15, 15, 162);
+    background: rgb(28, 6, 133);
     border-radius: 5px;
     position:absolute;
-    left:10.75rem;
-    top:2.5rem;
+    left:11.35rem;
+    top:2.8rem;
     animation: hourhand 43200s infinite;
     transform-origin:bottom center;
     animation-timing-function: linear;
@@ -139,11 +142,11 @@ h3{
 #n3{
     width:0.25rem;
     height:9rem;
-    background: rgb(15, 15, 162);
+    background: rgb(28, 6, 133);
     border-radius: 5px;
     position:absolute;
-    left:10.875rem;
-    top:2.5rem;
+    left:11.46rem;
+    top:2.8rem;
     animation: sechand 60s infinite;
     transform-origin:bottom center;
     animation-timing-function: linear;  
