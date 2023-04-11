@@ -4,16 +4,93 @@
     box-sizing: border-box;
 }
 #out{
-    width:20rem;
-    height:20rem;
-    background:rgb(113, 199, 227);
+    width:22rem;
+    height:22rem;
+    background:rgb(123, 207, 235);
     border-radius: 50%;
+    box-shadow: 10px 5px 10px rgba(18, 18, 199, 0.2);
     position:absolute;
     top:0;
     left:0;
     right:0;
     bottom:0;
     margin:auto;
+}
+#num{
+   width:20rem;
+   height:20rem;
+   /* background:rgb(123, 207, 235); */
+   border-radius:50%;
+   /* box-shadow: 0 0 15px rgba(0,0,1,0.2); */
+   position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+#num1{
+    position:absolute;
+    left:15rem;
+    top:0.3rem;
+}
+#num2{
+    position:absolute;
+    left:18.8rem;
+    top:4rem;
+}
+#num3{
+    position:absolute;
+    top:9.5rem;
+    left:20.2rem;
+}
+#num4{
+    position: absolute;
+    left:18.6rem;
+    top:14.7rem;
+}
+#num5{
+    position:absolute;
+    left:15rem;
+    top:18.4rem;
+}
+#num6{
+    position:absolute;
+    left:9.9rem;
+    bottom:-1.2rem;
+}
+#num7{
+    position:absolute;
+    left:4.3rem;
+    top:18.4rem;
+}
+#num8{
+    position:absolute;
+    left:0.6rem;
+    top:14.5rem;
+}
+#num9{
+    position:absolute;
+    bottom:9.3rem;
+    left:-0.8rem;
+}
+#num10{
+    position:absolute;
+    top:4.4rem;
+    left:0.3rem;
+}
+#num11{
+    position:absolute;
+    left:4.2rem;
+    top:0.4rem;
+}
+#num12{
+    position:absolute;
+    left:9.6rem;
+    top:-1.1rem;
+}
+h3{
+    color: rgb(8, 8, 116);
 }
 #in{
     width:2rem;
@@ -29,13 +106,13 @@
 }
 #n1{
     width:0.35rem;
-    height:9rem;
+    height:10rem;
     background:rgb(15, 15, 162);
     border-radius: 5px;
     position:absolute;
-    left:9.825rem;
-    top:0.5rem;
-    animation: minutehand 6s infinite;
+    left:10.825rem;
+    top:1.5rem;
+    animation: minutehand 3600s infinite;
     transform-origin:bottom center;
     animation-timing-function: linear;
 }
@@ -45,16 +122,34 @@
 
 #n2{
     width:0.5rem;
-    height:8rem;
+    height:9rem;
     background: rgb(15, 15, 162);
     border-radius: 5px;
     position:absolute;
-    left:9.75rem;
-    top:1.5rem;
-    animation: hourhand 60s infinite;
+    left:10.75rem;
+    top:2.5rem;
+    animation: hourhand 43200s infinite;
     transform-origin:bottom center;
     animation-timing-function: linear;
 }
 @keyframes hourhand {
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}  }
+
+#n3{
+    width:0.25rem;
+    height:9rem;
+    background: rgb(15, 15, 162);
+    border-radius: 5px;
+    position:absolute;
+    left:10.875rem;
+    top:2.5rem;
+    animation: sechand 60s infinite;
+    transform-origin:bottom center;
+    animation-timing-function: linear;  
+}
+@keyframes sechand{ 
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}  
+}
+
